@@ -2,7 +2,7 @@
 
 In this example, we will train efficientNet-b1 model on the Flowers102 dataset using the SparseML CLI. We will then quantize the model using QAT and export to ONNX for deployment with DeepSparse.
 
-In this case, we will use the SparseML CLI to train the models. There is also an example provided with PyTorch code.
+In this case, we will use the SparseML CLI to train the models. There is also an [example](efficientnet-sparseml-example.ipynb) provided with PyTorch code.
 
 Make sure you have SparseML installed:
 
@@ -95,3 +95,7 @@ sparseml.image_classification.export_onnx \
     --img-resize-size 256 \
     --img-crop-size 240
 ```
+
+## Run With DeepSparse
+
+Checkout the [example notebook](efficientnet-deepsparse-example.ipynb) showing DeepSparse running the exported model.
