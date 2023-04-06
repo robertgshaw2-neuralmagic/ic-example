@@ -4,6 +4,12 @@ In this example, we will train efficientNet-b1 model on the Flowers102 dataset u
 
 In this case, we will use the SparseML CLI to train the models. There is also an example provided with PyTorch code.
 
+Make sure you have SparseML installed:
+
+```
+pip install sparseml[torchvision]
+```
+
 ## Download the Dataset
 
 We can pass the [Flowers102](https://pytorch.org/vision/main/generated/torchvision.datasets.Flowers102.html#:~:text=Oxford%20102%20Flower%20is%20an,scale%2C%20pose%20and%20light%20variations.) dataset. We need to convert to the ImageFolder format. You can use the following command to download a zip file with the data in the right format.
