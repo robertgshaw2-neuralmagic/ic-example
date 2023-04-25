@@ -1,7 +1,7 @@
 # Epoch and Learning-Rate variables
-num_epochs: 20.0
+num_epochs: 15.0
 init_lr: 0.001
-final_lr: 0.0001
+final_lr: 0.0005
 
 training_modifiers:
   - !EpochRangeModifier
